@@ -1,66 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML5 Form</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    form {
-      max-width: 400px;
-      margin: 0 auto;
-    }
-    label {
-      display: block;
-      margin-bottom: 5px;
-    }
-    input[type="text"],
-    input[type="email"],
-    input[type="password"],
-    textarea {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 10px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-    }
-    input[type="submit"] {
-      background-color: #4CAF50;
-      color: white;
-      padding: 10px 15px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    input[type="submit"]:hover {
-      background-color: #45a049;
-    }
-    input[type="submit"]:focus {
-      outline: none;
-    }
-    .error {
-      color: red;
-    }
-  </style>
-</head>
-<body>
-
-<form id="myForm" action="#" method="post">
-   <form class="vc-input">
-  <h1>Sign in </h1>
-  <label>Email</label>
-   <input type="text" type="email" required/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign in</title>
+  </head>
+  <body>
+    <form class="vc-input">
+      <h1>Sign Up</h1>
+      <p>
+        <input type="text"  required/>
+        <label>Name</label>
       </p>
       <p>
-        <label>Password</label>
-        <input type="password" required/>  
+        <input type="text" type="email" required/>
+        <label>Email</label>
       </p>
       <p>
-        <label>Confirm Password</label>
         <input type="password" required/>
+        <label>Password</label>
       </p>
-      <button type="submit">Submit</button>  
-</form>
+      <p>
+        <input type="password" required/>
+        <label>Confirm Password</label>
+      </p>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
