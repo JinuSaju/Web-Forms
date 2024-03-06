@@ -16,7 +16,7 @@
       text-align: center;
     }
     .vc-input{
-      width: 500px;
+      width: 300px;
       display: flex;
       flex-direction: column;
       box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.16);
@@ -29,7 +29,7 @@
     .vc-input input{
       border: 2px solid rgba(128, 128, 128, 0.505);
       outline: none;
-      height: 45px;
+      height: 35px;
       transition: .5s;
       color: rgba(128, 128, 128, 0.8);
       width: 100%;
