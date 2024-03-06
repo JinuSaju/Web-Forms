@@ -12,7 +12,7 @@
     }
     h1{
       font-size: 26px;
-      color: rgb(83, 68, 251);
+      color: rgb(92, 92, 92);
       text-align: center;
     }
     .vc-input{
@@ -37,11 +37,11 @@
       padding: 2px;
     }
     .vc-input input:focus{
-      border-color:rgb(91, 77, 245);
-      color: rgb(91, 77, 245);
+      border-color:rgb(66, 66, 66);
+      color: rgb(66, 66, 66);
     }
     .vc-input input:focus::placeholder{
-      color: rgb(91, 77, 245);
+      color: rgb(66, 66, 66);
     }
     input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
