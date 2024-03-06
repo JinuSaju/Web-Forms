@@ -6,7 +6,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     var isValid = true;
 
-    // Basic email validation
+  
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
       document.getElementById('email').classList.add('error');
@@ -15,7 +15,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
       document.getElementById('email').classList.remove('error');
     }
 
-    // Password length validation
+    
     if (password.length < 8) {
       document.getElementById('password').classList.add('error');
       isValid = false;
@@ -23,7 +23,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
       document.getElementById('password').classList.remove('error');
     }
 
-    // Prevent form submission if any validation fails
+    
     if (!isValid) {
       event.preventDefault();
     }
