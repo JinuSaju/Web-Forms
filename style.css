@@ -49,7 +49,7 @@
       margin: 0;
     }
     .vc-input button{
-      background-color: rgb(91, 77, 245);
+      background-color: rgb(92, 92, 92);
       color: white;
       border-radius: 5px;
       border: none;
@@ -58,7 +58,7 @@
       transition: .15s;
     }
     .vc-input button:hover{
-      background-color:  rgb(72, 56, 246);
+      background-color:  rgb(66, 66, 66);
     }
     .vc-input p{
       position: relative;
@@ -67,7 +67,7 @@
       position: absolute;
       top :-7px;
       left: 10px;
-      background-color: white;
+      background-color: black;
       padding: 0 2px;
       font-size: .8rem;
       font-weight: bold;
