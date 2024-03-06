@@ -19,7 +19,7 @@
       width: 300px;
       display: flex;
       flex-direction: column;
-      box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.16);
+      box-shadow: 2px 4px 16px rgba(15, 15, 15, 0.16);
       background-color: white;
       gap: 20px;
       padding: 20px;
