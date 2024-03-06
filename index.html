@@ -49,17 +49,16 @@
 <body>
 
 <form id="myForm" action="#" method="post">
-  <label for="fullname">Full Name:</label>
-  <input type="text" id="fullname" name="fullname" required>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password" minlength="8" required>
-
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" rows="4" required></textarea>
-
-  <input type="submit" value="Submit">
+   <input type="text" type="email" required/>
+        <label>Email</label>
+      </p>
+      <p>
+        <input type="password" required/>
+        <label>Password</label>
+      </p>
+      <p>
+        <input type="password" required/>
+        <label>Confirm Password</label>
+      </p>
+      <button type="submit">Submit</button>  
 </form>
